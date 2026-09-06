@@ -85,8 +85,8 @@ public class GameManager : MonoBehaviour
     {
         StopSpawn();
         spawnCoroutine = StartCoroutine(SpawnItems());
-        spawnWateInterval = Random.Range(2, 5); //move to method
-        remainingCoolant = 10;
+        spawnWateInterval = Random.Range(2, 5);
+        remainingCoolant = 20;
         remainingTime = 180;
         readyButton.gameObject.SetActive(false);
         HideGameEndText();
